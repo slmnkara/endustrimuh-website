@@ -4,7 +4,6 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    width: 500px;
 }
 
 #midterm {
@@ -41,4 +40,27 @@ body {
 
     padding: 0px 20px 0px 20px;
     margin: 10px;
+}
+
+/* ...existing code... */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 20px; /* telefonlar için daha büyük yazı */
+        line-height: 1.6;
+        padding: 10px;
+    }
+
+    #midterm {
+        padding: 12px;
+        margin: 8px 0;
+        border-radius: 12px;
+    }
+
+    #gems,
+    #documents {
+        padding: 12px 16px;
+        margin: 8px 0;
+        border-radius: 12px;
+    }
 }

@@ -1,0 +1,43 @@
+body {
+    background-color: azure;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#midterm {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 1;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 15px;
+
+    background-color: azure;
+}
+
+#gems {
+    background-color:cornflowerblue;
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+
+    padding: 0px 20px 0px 20px;
+    margin: 10px;
+}
+
+#documents {
+    background-color: darkseagreen;
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+
+    padding: 0px 20px 0px 20px;
+    margin: 10px;
+}
